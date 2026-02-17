@@ -1,5 +1,5 @@
 
-export default function Navbar() {
+export function Navbar() {
     return (
 
         <nav className="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark" data-bs-theme="dark">

@@ -43,7 +43,7 @@ export const Card = (card) => {
                             <div className="card h-100">
 
                                 <img src={card.image} className="card-img-top" alt={card.title} />
-                                <div className="card-body text-center">
+                                <div className="card-body text-center d-flex flex-column justify-content-end">
                                     <h5 className="card-title">{card.title}</h5>
                                     <p className="card-text">{card.text}</p>
                                     <button className="btn btn-primary">
